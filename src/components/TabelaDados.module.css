@@ -1,0 +1,21 @@
+.tabela td{
+  padding: 0.5rem;
+}
+.tabela{
+  border-top: 1px solid lightblue;
+}
+.tabela thead tr th{
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0.5rem 0.875rem;
+  text-align: left;
+}
+
+.tabela tbody:nth-child(odd) {
+  background: #eee
+}
+.tabela tbody td{
+  margin: 0;
+  padding: 0.875rem 1rem
+}
